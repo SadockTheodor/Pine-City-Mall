@@ -3,49 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Electronics</title>
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 mb-2 bg-primary text-white">
+    <a class="navbar-brand" href="./index.html"><img src="./images/mall_logo.png" class="img-responsive rounded-circle" width="70" height="70" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./map.html">Map</a>
+        </li>
+        <ul class="nav nav-pills">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="shops.html" role="button" aria-haspopup="true" aria-expanded="false">List Of Shops</a>
+              <div class="dropdown-menu" >
+                <a class="dropdown-item" href="./electronic.html"> <img src="./images/elec2.png" width="30" height="30" alt="">
+                  Electronics</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./Clothing.html"><img src="./images/cloth3.jpg" width="30" height="30" alt=""> Clothing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./restaurant.html"><img src="./images/tuscan excesia.jpg" width="30" height="30" alt=""> Restaurant</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./supermaket.html"><img src="./images/market3.jpg" width="30" height="30" alt=""> Supermarket</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="./movies.html"><img src="./images/mov1.jpg" width="30" height="30" alt="">Movies</a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./blog.html">Blog</a>
-            </li>
-            <ul class="nav nav-pills">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="services.html" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
-                  <div class="dropdown-menu" style="">
-                    <a class="dropdown-item" href="./appdev.html">App Development</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./hosting.html">Hosting</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./tutorials.html">Tutorials</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="./waiter.html">Waiter</a>
-                  </div>
-                </li>
-              </ul>
           </ul>
-        </div>
-      </nav>
-      
+      </ul>
+    </div>
+  </nav>
+   <!-- Full Page Image Header with Vertically Centered Content -->
+<header class="masthead text-white bg-dark overlay-effect" style="background-image:url('./images/elect_bacg.jpg'); width: 100%; height: 500px; background-attachment: fixed;">
+<div class="container h-100">
+<div class="row h-100 align-items-center">
+  <div class="col-12 text-center">
+    <h1 class="font-weight-light">Pine City Mall</h1>
+    <p class="lead">The best place you can buy everything!</p>
+  </div>
+</div>
+</div>
+</header>
+<!--Shops-->
+
+<div class="container">
+<ul class="list-unstyled mt-5 mb-5" >    
+  <h1 class="text-center mt-5 mb-5">Pine City Mall Electronic Shop</h1>
+
+
+  <li class="media">
+    <img class="mr-5" src="./images/elec_logo.png" width="200px" height="200px" alt="The logo">
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">About The electronic Store</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+  <!--Divider-->
+  <div class="container-sm">
+    <div class="row">
+      <hr style="width: 100%; height:25px; background-color:midnightblue;" />
+    </div>
+    </div>
+  <li class="media my-4">
+    <img class="mr-5" src="./images/elect3.jpg" alt="Generic placeholder image" width="200px" height="200px"/>
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Find Our Best Laptops</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+  <!--Divider-->
+  <div class="container-sm">
+    <div class="row">
+      <hr style="width: 100%; height:25px; background-color:midnightblue;" />
+    </div>
+    </div>
+  <li class="media">
+    <img class="mr-5" src="./images/tel2.png" alt="Cell Phone" width="200px" height="200px"/>
+    <div class="media-body">
+      <h5 class="mt-0 mb-1">Provide You The Latest Model Of Phone</h5>
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    </div>
+  </li>
+</ul>
+</div>
 
     <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
